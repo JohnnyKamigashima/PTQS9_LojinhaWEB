@@ -57,7 +57,7 @@ class ProdutosTest {
     @DisplayName("Não é permitido registrar um produto com valor ")
     @ParameterizedTest(name = "Teste {index} - {displayName} R$ {0}")
     @CsvFileSource(resources = "/csv/massaProdutoValores.csv", numLinesToSkip = 1, delimiter = ';')
-    void naoDeveRegistrarProdutoComValor(String valor, String resultadoEsperado) {
+    void testeDeProdutoComValor(String valor, String resultadoEsperado) {
 
     // Fazer Login
         String resultadoObtido = new LoginPage(navegador)
