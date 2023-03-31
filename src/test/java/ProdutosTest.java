@@ -54,7 +54,7 @@ class ProdutosTest {
     //Fechar o navegador
         navegador.quit();
     }
-    @DisplayName("Não é permitido registrar um produto com valor ")
+    @DisplayName("Testar registro de um produto com valor ")
     @ParameterizedTest(name = "Teste {index} - {displayName} R$ {0}")
     @CsvFileSource(resources = "/csv/massaProdutoValores.csv", numLinesToSkip = 1, delimiter = ';')
     void testeDeProdutoComValor(String valor, String resultadoEsperado) {
