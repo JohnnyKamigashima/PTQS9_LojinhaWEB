@@ -1,0 +1,4 @@
+{
+  "baseUrl": "http://165.227.93.41/lojinha-web/v2",
+  "chromeDriverPath": "/opt/homebrew/bin/chromedriver"
+}

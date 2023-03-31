@@ -1,0 +1,4 @@
+Valor  ; Mensagem esperada
+0      ; O valor do produto deve estar entre R$ 0,01 e R$ 7.000,00
+700001 ; O valor do produto deve estar entre R$ 0,01 e R$ 7.000,00
+001    ; Produto adicionado com sucesso
