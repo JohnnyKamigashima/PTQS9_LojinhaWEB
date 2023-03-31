@@ -6,13 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import pages.LoginPage;
+import pojo.Configura;
 import pojo.Produto;
-import pojo.Usuario;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.concurrent.TimeUnit;
 
 @DisplayName("Testes Web do Módulo de Produtos")
 class ProdutosTest {

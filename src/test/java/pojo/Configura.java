@@ -1,3 +1,5 @@
+package pojo;
+
 public class Configura {
     String baseUrl;
     String chromeDriverPath;
